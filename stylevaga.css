@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: 0;
+}
+
+header{
+    background-color: #83C3F6;
+    padding: 10px;
+    }
+    header h1{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 27px;
+    }
+    
+    main{
+    min-height: calc(100dvh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(247, 251, 255);
+    }
+
+    .title-vagas{
+        margin-top: 20px;
+        margin-left: -1649px;
+    }
+
+    .title-vagas h2{
+color: #000000bd;
+font-family: "Poppins", sans-serif;
+
+    }
+.title-vagas hr{
+    padding: 3px;
+    background-color:#1a88e29c ;
+    border: none;
+    border-radius:100px;
+}
+
+.vagas-disponiveis{
+    margin-left: -1235px;
+    margin-top: 50px;
+width: 650px;
+height: 300px;
+background-color: #ffffff;
+border-radius: 5px;
+box-shadow: 2px 5px 15px rgba(29, 29, 29, 0.048);
+padding: 10px;
+}
+#nome-vaga{
+
+    font-family: "Poppins", sans-serif;
+font-size: 25px;
+}
+
+.title-nome-vaga hr{
+    padding: 3px;
+    background-color:#83c2f69c ;
+    border: none;
+    border-radius:100px;
+    width: 350px;
+}
+p{
+font-size: 22px;
+font-family: "Roboto", sans-serif;
+}
+.negrito-infos{
+font-family: "Roboto", sans-serif;
+font-weight: bold;
+
+}
+.infos{
+display: flex;
+flex-direction: column;
+gap: 7px;
+}
